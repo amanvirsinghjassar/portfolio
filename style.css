@@ -2,7 +2,7 @@
 	width: 100%;
 	height: auto;
 }
-
+/* navbar begin*/
 .navbar{
 	width: 100%;
 	height: 60px;
@@ -28,33 +28,63 @@
 	text-decoration: none;
 }
 
+/* einde navbar*/
+
 
 /* begin header */
 .header{
 	width: 100%;
 	height: 400px;
-	background-color: darkgray; 
+	background-color: white; 
 }
 
 .header img{
-	width: 200px;
-	height: 200px;
-	margin-left: 659px;
-	margin-top: 20px;
+	width: 400px;
+	height: 382px;
+	float: left;
 
 }
 
-.header h2{
-	font-family: sans-serif;
+.h2{
 	text-align: center;
-	color: white;
-}
+	position: absolute;
+	margin-left: 36%;
+	margin-top: 150px;
+	font-family:sans-serif;
+  }
 
-.header h3{
-	font-family: sans-serif;
-	text-align: center;
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  left: 30vw;
+  right: 0;
+  text-align: center;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  
+  
+  .fa-linkedin {
+	background: #007bb5;
 	color: white;
-}
+  }
+  
+  
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
 /* einde header */
 
 /* begin content */
@@ -116,16 +146,17 @@
 
 }
 
-.textabout{
-	width: 100%;
-	height: 100px;
-	margin: auto;
-}
-
-.textabout p{
-	font-family: sans-serif;
-	text-align: center;
-}
+.flex-container {
+	display: flex;
+	background-color: #2b384c;
+  }
+  
+  .flex-container > div {
+	background-color: #f1f1f1;
+	margin: 30px;
+	padding: 10px;
+	font-size: 20px;
+  }
 /* einde about */
 
 /* begin Experience */
@@ -173,7 +204,7 @@
 
 .education{
 	width: 100%;
-	height: 230px;
+	height: 450px;
 	background-color: #fff;
 	margin-top: 15px;
 }
@@ -196,6 +227,32 @@
 	font-family: sans-serif;
 }
 
+div.gallery {
+	margin: 35px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 300px;
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  .roc {
+	width: 100%;
+	height: 170px;
+  }
+
+.hbo{
+	width: 100%;
+	height: 187px;
+}
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+  }
+
 /* einde education */
 
 /* begin contact */
@@ -204,6 +261,7 @@
 	width: 100%;
 	height:400px;
 	background-color: #eee; 
+	margin-top: -20px;
 
 }
 
